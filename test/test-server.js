@@ -61,7 +61,7 @@ describe('Shopping List', function() {
         });
       });
   });
-
+  //new idea
   // test strategy:
   //  1. make a POST request with data for a new item
   //  2. inspect response object and prove it has right
