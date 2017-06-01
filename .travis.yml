@@ -7,4 +7,4 @@ deploy:
   app: whispering-falls-55861
   on:
     repo: Daine-M27/node-shopping-list-integration-tests
-    branch: tests-for-recipes
+    branch: master
