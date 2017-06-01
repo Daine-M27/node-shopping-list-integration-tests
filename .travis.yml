@@ -1,4 +1,10 @@
 language: node_js
 node_js: node
-
-# newitem
+deploy:
+  provider: heroku
+  api_key:
+    secure: eRFwngqsu/WdyDCZRmmLYmAR93o+VFcb4Ne9AsThg6VtimVL2Hr7IX7rwZvXGiH7abVG+qCOd3I2a4zJjbBcvpdUQlORvR+9zVRSg/CSHpsVJjwzVFZfwE8LulXv9q1n9Byoi7q3JAWjn9UX2up0tQqf2XSr7YftC2oy7vNfzCEu7Xv1/KwaPjGZd0Vthe/jNnpJvr1hrPpsB2jUR2E5UsQWBcxHIHNDb+xBlzJ0KYurry4aAicNRz4P2EXJoLXoxziOxY2Zrwzj8pNaPl9vHMbJZ3+s99yM9UhjFQ3pbWWf959PINaA+fWa6P1bzAgYgsKCy3jyCAg0KyLlW9rUJlTgqDlyCT39l4mPD6TvtXuCYFhPNr2egOtLNgiRqBXsNXUS03IJxpqlyjoX9bZ+Vb0GCEQF3NtBA1d39K3oVbXm7bbC0C7Q6DpSrRbosRQ5md8sO1mylpxVy8tPmHHhJVQ9pLhhbbw4cKIFXOW1f2HcVqcRi0c5ScwsxUtLrKx9ORncGaX03tVyubq7L67YIxoTbFnVm0LJUDJjuYuTdaVt+u5yL2wcZVWmgSoFiHofvuszMSuqfO5qhcBzX1kzn/RFwZiLN9d/4uUZbHZU83EXZE20J5Mg4khjkKYTXWlAj22oBK8YtgCwss0jIpCdkz1aJCI0TLepZ9MmneOWVrw=
+  app: whispering-falls-55861
+  on:
+    repo: Daine-M27/node-shopping-list-integration-tests
+    branch: tests-for-recipes
