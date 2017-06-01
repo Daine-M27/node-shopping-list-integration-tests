@@ -1,0 +1,69 @@
+* [33m6d9ee17[m[33m ([m[1;36mHEAD -> [m[1;32mtemp[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m new try
+* [33me392572[m new branch yml file
+* [33mbb443a1[m[33m ([m[1;31morigin/tests-for-recipes[m[33m, [m[1;32mtests-for-recipes[m[33m)[m new yml
+* [33mf2450bd[m trigger travis with yml file
+* [33m6e13d89[m added travis.yml
+* [33m0847111[m finished tests
+* [33m59cf6f2[m first commit new branch
+*   [33mdc0875f[m Merge pull request #4 from Rosuav/patch-1
+[32m|[m[33m\[m  
+[32m|[m * [33m4df6ccf[m Fix comment typo
+[32m|[m * [33mb174bd2[m Deduplicate runServer()
+[32m|[m[32m/[m  
+* [33m5bc770a[m closeServer
+* [33m6e2c7b7[m fix closeServer
+* [33me021949[m update closeServer
+* [33m987fcfa[m add closeServer function
+* [33m94f6aca[m remove mongoose ref
+* [33m902ae4e[m runServer with promise
+* [33m854d6fb[m use beforeEach/afterEach
+* [33mf45f6e5[m add comments and get rid of `done`
+* [33m5c5e818[m move `done` to right place
+* [33m093b2b2[m update travis
+* [33mff75155[m change heroku app name
+* [33m729c413[m update travis
+* [33m39b5dc4[m setup heroku deploy
+* [33ma38c6a0[m added .travis.yml
+* [33m41c7afe[m cleanup test
+* [33m048da74[m comments
+* [33mf0a8488[m update test
+* [33m2f425e9[m update routes
+*   [33m5994e49[m Merge branch 'feature/tests-checkpoint-1'
+[34m|[m[35m\[m  
+[34m|[m * [33m75e024c[m cleanup
+[34m|[m * [33mde37e29[m post update
+[34m|[m * [33m0b9077e[m export server and before/afterEach
+[34m|[m * [33ma3b644d[m test each item in response
+[34m|[m * [33md27d9c7[m assertions about object
+[34m|[m * [33mf830b10[m test for json and array
+[34m|[m * [33ma35cbbd[m test for 200 on get items passing
+[34m|[m * [33m85fe8b0[m imports and chai/chai http in tests
+[34m|[m * [33m278cc24[m add chai chai-http as dev dependencies
+[34m|[m * [33mff9bf26[m initial test stubs
+[34m|[m * [33m806cef5[m add npm test command
+[34m|[m * [33mb9acada[m fix indentation
+[34m|[m * [33m3e072c1[m add mocha as dev dependency
+[34m|[m[34m/[m  
+* [33m6b3d087[m update comment
+* [33md54e784[m revamp
+*   [33m01f3268[m Merge branch 'hyperdev'
+[36m|[m[1;31m\[m  
+[36m|[m * [33mbac1ebc[m update url
+[36m|[m *   [33md9b8f8a[m Merge branch 'master' into hyperdev
+[36m|[m [1;32m|[m[36m\[m  
+[36m|[m [1;32m|[m[36m/[m  
+[36m|[m[36m/[m[1;32m|[m   
+* [1;32m|[m [33mf11386e[m v5 working
+* [1;32m|[m   [33ma9adf29[m Merge branch 'hyperdev'
+[1;34m|[m[1;32m\[m [1;32m\[m  
+[1;34m|[m [1;32m|[m[1;32m/[m  
+[1;34m|[m * [33mec78706[m in progress
+[1;34m|[m * [33mdd6a094[m separate shoppingList into sep. router
+[1;34m|[m * [33m4a50b4e[m put updates working
+[1;34m|[m * [33mf6198df[m delete items working
+[1;34m|[m * [33m42ab129[m update .gitignore
+[1;34m|[m * [33m45caf74[m update readme.md
+[1;34m|[m * [33m26f4e6a[m add .gitignore
+[1;34m|[m * [33mb20134b[m v2 working
+[1;34m|[m[1;34m/[m  
+* [33mcfc2fa6[m Initial commit
